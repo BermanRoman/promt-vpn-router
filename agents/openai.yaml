@@ -1,0 +1,4 @@
+interface:
+  display_name: "Домашний VPN"
+  short_description: "Агентная настройка серверов, маршрутов и роутера"
+  default_prompt: "Используй $home-vpn-agent для настройки моей домашней VPN-сети с проверкой на реальном устройстве."

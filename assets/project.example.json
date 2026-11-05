@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "case_name": "example",
+  "router": true,
+  "exit_mode": "single-exit",
+  "adfilter_enabled": null,
+  "provider_defaults": {
+    "domain_dns": "Timeweb",
+    "panel_vps": "is*hosting Serbia",
+    "primary_exit": "VDSINA Netherlands",
+    "router_model": "Cudy WR3000S v1"
+  },
+  "endpoints": [
+    {"role": "primary-exit", "host": "192.0.2.10"},
+    {"role": "special-exit", "host": "example.invalid"}
+  ],
+  "secret_file_refs": []
+}
